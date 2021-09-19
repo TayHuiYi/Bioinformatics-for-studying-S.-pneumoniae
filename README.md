@@ -5,4 +5,4 @@ The notebook allows users to colour their structures generated from AlphaFold wi
 All structures should be within the same folder, and a new PDB file with the b-factor column edited with pLDDT values will be created. Opening the file with softwares such as PyMol will allow the user to view the coloured structure.
 
 
-Instructions are within the code, commented out.
+Instructions are within the notebook, commented out.
