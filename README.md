@@ -14,8 +14,6 @@ A new PDB file with the b-factor column edited with pLDDT values will be created
 # Extraction of glycosyltransferase sequences
 The notebook, "GT_Extraction.java", allows users to extract glycosyltransferase (GT) sequences from the genomes of *S. pneumoniae* serotypes. A new fasta file is generated with the nucleotide sequence of each GT of a particular serotype.
 
-It is possible to loop the code to extract the GTs of multiple serotypes at a time, though it is not included in the notebook.
-
 **Brief instructions** 
 1. Remove ID details (e.g. ID   35F_pne74  standard; DNA; UNC; 15137 BP.)
 2. Indicate path to the embl file containing the serotypes genome under the variable, "file" 
@@ -27,6 +25,6 @@ It is possible to loop the code to extract the GTs of multiple serotypes at a ti
 
 # Notes for all notebooks 
 - Detailed explanation and instructions are within the notebook, commented out.
-- The code in all notebooks can be looped to edit multiple files at a time, though it is not included in the notebooks.
+- The code in all notebooks can be looped to edit multiple files at a time, though it is not included.
 
 
