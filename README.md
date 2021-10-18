@@ -4,6 +4,10 @@ Codes in this repo has been written by Eugene Gan, Ng Jing Ting and Tay Hui Yi f
 The notebook allows users to colour their structures generated from AlphaFold with the pLDDT values generated. 
 A new PDB file with the b-factor column edited with pLDDT values will be created. Opening the file with softwares such as PyMol will allow the user to view the coloured structure.
 
+**Brief instructions**
+1. Change working directory to the location with all necessary files, i.e. PDB structure, pkl file)
+2. Provide the name of the new PDB file generated in the last cell, i.e. io.save("your_filename.pdb")
+
 **Note**
 - BioPython is needed to run the code 
 
@@ -15,7 +19,7 @@ It is possible to loop the code to extract the GTs of multiple serotypes at a ti
 **Brief instructions** 
 1. Remove ID details (e.g. ID   35F_pne74  standard; DNA; UNC; 15137 BP.)
 2. Indicate path to the embl file containing the serotypes genome under the variable, "file" 
-3. Indicate path and name of the new text file generated under the variable, "fout"
+3. Indicate path and provide the name of the new text file generated under the variable, "fout"
 4. Run the code 
 
 **Note**
