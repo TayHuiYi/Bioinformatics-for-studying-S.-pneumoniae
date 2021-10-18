@@ -12,7 +12,7 @@ A new PDB file with the b-factor column edited with pLDDT values will be created
 - BioPython is needed to run the code 
 
 # Extraction of glycosyltransferase sequences
-The notebook, "GT_Extraction.java", allows users to extract glycosyltransferase (GT) sequences from the genomes of *S. pneumoniae* serotypes. A new fasta file is generated with the nucleotide sequence of each GT of a particular serotype.
+The notebook, "GT_Extraction.java", allows users to extract glycosyltransferase (GT) sequences from the genomes of organisms. A new fasta file is generated with the nucleotide sequence of each GT of a particular serotype.
 
 **Brief instructions** 
 1. Remove ID details (e.g. ID   35F_pne74  standard; DNA; UNC; 15137 BP.)
